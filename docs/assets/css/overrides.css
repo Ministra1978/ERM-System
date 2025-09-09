@@ -13,7 +13,7 @@
 }
 
 .wy-nav-content {
-  max-width: 1200px;   /* ნაგულისხმევი 800px-ია */
+  max-width: 100%;   /* ნაგულისხმევი 800px-ია */
 }
 
 /* Admonition (!!! note, tip, warning) სათაურებზე არსებული აიკონი */
