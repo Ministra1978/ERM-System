@@ -7,7 +7,19 @@ theme:
     - navigation.tabs       # ზევიდან tabs-ებად
     - navigation.tabs.sticky
     - header.autohide       # (სურვილისამებრ)
-
+extra_css:
+  - assets/css/overrides.css
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.tabbed
+  - footnotes
 nav:
   - Home: index.md
   - Roadmap: roadmap.md
