@@ -26,5 +26,5 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Roadmap: roadmap.md
-  - s: architecture.md
+  - architecture: architecture.md
   - მიზანი: მიზანი.md
