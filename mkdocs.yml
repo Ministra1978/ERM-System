@@ -1,11 +1,28 @@
-site_name: ERM Docs
-repo_url: https://github.com/Ministra1978/ERM-System
+site_name: ERM-System Documentation
+site_url: https://ministra1978.github.io/ERM-System/
+repo_url: https://github.com/ministra1978/ERM-System
+repo_name: ERM-System
+
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - search.highlight
-    - content.code.copy
+
+# ყურადღება: აქ მხოლოდ შენი override.css დატოვე, და RELATIVE ბილიკით
+extra_css:
+  - assets/css/overrides.css
+
+# ყურადღება: დროებით გაასუფთავე extra_javascript
+# extra_javascript: []
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.tabbed
+
 nav:
   - Home: index.md
   - Roadmap: roadmap.md
