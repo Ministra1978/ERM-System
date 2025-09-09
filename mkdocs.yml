@@ -8,7 +8,7 @@ theme:
 
 # ყურადღება: აქ მხოლოდ შენი override.css დატოვე, და RELATIVE ბილიკით
 extra_css:
- # - assets/css/overrides.css
+  - assets/css/overrides.css
 
 # ყურადღება: დროებით გაასუფთავე extra_javascript
 # extra_javascript: []
