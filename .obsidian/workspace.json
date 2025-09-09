@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/about/research.md.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "research.md"
+              "title": "index"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/about/research.md.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from research.md"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/about/research.md.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of research.md"
+              "title": "Outline of index"
             }
           },
           {
@@ -181,12 +181,12 @@
   },
   "active": "30e4bba059cb4138",
   "lastOpenFiles": [
-    "docs/index.md",
-    "docs/about/research.md.md",
-    "about/research.md",
-    "docs/user-guide/intro.md.md",
-    "about",
     "docs/მიზანი.md",
+    "docs/user-guide/intro.md.md",
+    "docs/about/research.md.md",
+    "docs/index.md",
+    "about/research.md",
+    "about",
     "docs/about/goals.md.md",
     "docs/about",
     "docs/roadmap.md",
