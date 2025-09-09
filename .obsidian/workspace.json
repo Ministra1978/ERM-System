@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1dceca926a85988f",
+        "id": "7bbda57cd6eb4d0e",
         "type": "tabs",
         "children": [
           {
-            "id": "30e4bba059cb4138",
+            "id": "4e0fa50757793c2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,12 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30e4bba059cb4138",
+  "active": "4e0fa50757793c2d",
   "lastOpenFiles": [
-    "docs/about/research.md.md",
-    "docs/index.md",
     "docs/მიზანი.md",
+    "docs/index.md",
     "docs/user-guide/intro.md.md",
+    "docs/about/research.md.md",
     "about/research.md",
     "about",
     "docs/about/goals.md.md",
