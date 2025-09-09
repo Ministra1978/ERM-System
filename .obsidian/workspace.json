@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Untitled.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "index"
             }
           }
         ],
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Untitled.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Untitled.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of index"
             }
           },
           {
@@ -196,9 +196,11 @@
   },
   "active": "d567b2fc3f35a44b",
   "lastOpenFiles": [
-    "docs/Untitled.canvas",
-    "docs/Untitled.md",
+    "docs/architecture.md",
     "docs/index.md",
+    "docs/roadmap.md",
+    "docs/Untitled.md",
+    "docs/Untitled.canvas",
     "site/architecture/index.html",
     "site/architecture",
     "site/404.html",
@@ -210,8 +212,6 @@
     "site/assets/javascripts/workers/search.973d3a69.min.js.map",
     "site/assets/javascripts/workers/search.973d3a69.min.js",
     "site/assets/images/favicon.png",
-    "Untitled.md",
-    "docs/architecture.md",
-    "docs/roadmap.md"
+    "Untitled.md"
   ]
 }
