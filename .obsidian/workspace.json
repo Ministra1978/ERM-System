@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "roadmap"
             }
+          },
+          {
+            "id": "d567b2fc3f35a44b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/roadmap.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from roadmap"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/roadmap.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of roadmap"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -179,6 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1dca44a701af2e3d",
-  "lastOpenFiles": []
+  "active": "d567b2fc3f35a44b",
+  "lastOpenFiles": [
+    "docs/roadmap.md",
+    "Untitled.md"
+  ]
 }
