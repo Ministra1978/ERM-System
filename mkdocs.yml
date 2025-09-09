@@ -2,6 +2,9 @@ site_name: ERM-System Documentation
 
 theme:
   name: material
+  font:
+    text: "Noto Sans Georgian"   # ტექსტისთვის
+    code: "Fira Code"            # სურვილის მიხედვით, კოდის ფონტი
   features:
     - navigation.top        # მენიუ header-ში
     - navigation.tabs       # ზევიდან tabs-ებად
