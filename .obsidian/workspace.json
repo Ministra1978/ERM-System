@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/მიზანი.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "მიზანი"
+              "title": "index"
             }
           },
           {
@@ -155,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/მიზანი.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from მიზანი"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/მიზანი.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of მიზანი"
+              "title": "Outline of index"
             }
           },
           {
@@ -224,9 +224,9 @@
   },
   "active": "7f3033b0af74511b",
   "lastOpenFiles": [
+    "docs/მიზანი.md",
     "docs/index.md",
     "docs/architecture.md",
-    "docs/მიზანი.md",
     "docs/assets/css/overrides.css",
     "docs/assets/css",
     "docs/assets",
