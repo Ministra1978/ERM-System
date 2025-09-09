@@ -5,27 +5,13 @@ repo_name: ERM-System
 
 theme:
   name: material
-  language: en
-  features:
-    - navigation.tabs
-    - navigation.indexes
-    - search.highlight
-    - content.code.copy
-    - content.action.edit
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: blue
-    - scheme: slate
-      primary: indigo
-      accent: blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
 
+# ყურადღება: აქ მხოლოდ შენი override.css დატოვე, და RELATIVE ბილიკით
 extra_css:
   - assets/css/overrides.css
 
+# ყურადღება: დროებით გაასუფთავე extra_javascript
+# extra_javascript: []
 markdown_extensions:
   - admonition
   - toc:
@@ -41,9 +27,3 @@ nav:
   - Home: index.md
   - Roadmap: roadmap.md
   - Architecture: architecture.md
-  - How-To:
-      - Setup: how-to/setup.md
-      - Deployment: how-to/deploy.md
-  - API:
-      - Authentication: api/auth.md
-      - Products: api/products.md
