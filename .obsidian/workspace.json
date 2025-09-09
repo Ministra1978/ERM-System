@@ -222,8 +222,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f3033b0af74511b",
+  "active": "1dca44a701af2e3d",
   "lastOpenFiles": [
+    "requirements.txt",
     "docs/მიზანი.md",
     "docs/index.md",
     "docs/architecture.md",
