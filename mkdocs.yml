@@ -1,7 +1,7 @@
 site_name: ERM-System Documentation
 
 theme:
-  name: material
+  name: readthedocs
   features:
     - navigation.top        # მენიუ header-ში
     - navigation.tabs       # ზევიდან tabs-ებად
