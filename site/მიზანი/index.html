@@ -1,0 +1,790 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+    
+    
+      
+        <title>მიზანი - ERM-System Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Georgian:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans Georgian";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/css/overrides.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#draft" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ERM-System Documentation" class="md-header__button md-logo" aria-label="ERM-System Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ERM-System Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              მიზანი
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../roadmap/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Roadmap
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../architecture/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Architecture
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ERM-System Documentation" class="md-nav__button md-logo" aria-label="ERM-System Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ERM-System Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roadmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#draft" class="md-nav__link">
+    <span class="md-ellipsis">
+      პროექტის მიზანი (Draft)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-success-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Success Metrics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      სამიზნე აუდიტორია
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="სამიზნე აუდიტორია">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. სექტორები
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. კომპანიის ზომა
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. პრობლემები, რომელსაც სისტემა წყვეტს
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. ღირებულება სამიზნე აუდიტორიისთვის
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ხედვა
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>მიზანი</h1>
+
+<h3 id="draft">პროექტის მიზანი (Draft)<a class="headerlink" href="#draft" title="Permanent link">&para;</a></h3>
+<p>პროექტის მიზანია შევქმნათ <strong>პირველი ქართული მოდულარული ERP/CRM სისტემა</strong>, რომელიც სპეციალურად იქნება მორგებული მცირე და საშუალო ბიზნესების საჭიროებებზე საქართველოში და მთლიანად კავკასიის რეგიონში.</p>
+<p><strong>რატომ საჭიროა:</strong> </p>
+<ul>
+<li>
+<p>ქართულ ბაზარზე არსებული უცხოური ERP/CRM სისტემები (SAP, Odoo, Bitrix, Zoho და სხვ.) ხშირად რთული და ძვირია.</p>
+</li>
+<li>
+<p>ქართულ სპეციფიკას (RS.ge, ადგილობრივი ბანკები, საგადასახადო გარემო) ვერ მოერგება.</p>
+</li>
+<li>
+<p>SMB კომპანიებს სჭირდებათ იოლი, იაფი და მოქნილი სისტემა, რომელიც ყველა პროცესს ერთიანად გააკონტროლებს.</p>
+</li>
+</ul>
+<p><strong>ჩვენი ხედვა:</strong></p>
+<ul>
+<li>
+<p>მარტივად გამოყენებადი პლატფორმა, რომელსაც შეუძლია ეტაპობრივად გაზრდა (მოდულების დამატება).</p>
+</li>
+<li>
+<p>ლოკალიზებული ქართულ რეალობაზე: RS.ge ინტეგრაცია, ბანკების API, ლარით ოპერაციები, ქართული ენა.</p>
+</li>
+<li>
+<p>Multi-tenant არქიტექტურა – ერთი პლატფორმიდან ბევრი კომპანიის მომსახურება.</p>
+</li>
+<li>
+<p>ღია მოდულური სისტემა, სადაც მომავალში მესამე მხარის დეველოპერებსაც შეეძლებათ მოდულების დამატება.</p>
+</li>
+</ul>
+<p><strong>გრძელვადიანი მიზანი:</strong><br />
+გახდეს №1 ქართული ERP/CRM გადაწყვეტა, რომელიც SMB-ებს მისცემს საშუალებას იგივე ხარისხის ციფრული მართვა მიიღონ, რასაც ევროპული/ამერიკული კომპანიები იყენებენ, მაგრამ ადგილობრივ პირობებზე მორგებულად და უფრო ხელმისაწვდომ ფასად.</p>
+<p>პროექტის მთავარი მიზანია შევქმნათ <strong>პირველი სრულად ქართული, მოდულარული ERP/CRM სისტემა</strong>, რომელიც გახდება <strong>სტანდარტი მცირე და საშუალო ბიზნესების ციფრული მართვისთვის საქართველოში და რეგიონში</strong>.</p>
+<p><strong>სტრატეგიული ხედვა:</strong><br />
+დღეს ქართულ ბაზარზე არსებული უცხოური ERP/CRM სისტემები – SAP, Odoo, Bitrix, Zoho და სხვ. – მეტწილად ვერ პასუხობენ ადგილობრივ საჭიროებებს:</p>
+<ul>
+<li>
+<p>ისინი ან ძალიან ძვირია, ან ზედმეტად კომპლექსური SMB-სთვის.</p>
+</li>
+<li>
+<p>ხშირად არ აქვთ ინტეგრაცია საქართველოს საგადასახადო სისტემასთან (RS.ge) და ადგილობრივ ბანკებთან.</p>
+</li>
+<li>
+<p>არ არის ადაპტირებული ქართულ ენასა და ლარში ოპერაციებზე.</p>
+</li>
+</ul>
+<p>ეს გამოწვევები SMB-ს აიძულებს გამოიყენოს ცალკეული პროგრამები (ბუღალტერია, საწყობი, გაყიდვები), რაც იწვევს დუბლირებულ მონაცემებს, შეცდომებსა და დროის კარგვას.</p>
+<p>ჩვენი მიზანია ეს ხარვეზი შევავსოთ <strong>ერთიან, მოქნილ და ხელმისაწვდომ პლატფორმაში</strong>, რომელიც:</p>
+<ul>
+<li>
+<p><strong>მარტივი გამოსაყენებელია</strong>, ინტერფეისით შექმნილი ადგილობრივი მომხმარებლის საჭიროებებზე.</p>
+</li>
+<li>
+<p><strong>მოდულარულია</strong> – კომპანია ირჩევს მხოლოდ იმ ფუნქციებს, რაც სჭირდება (CRM, ბუღალტერია, საწყობი, HR და სხვ.).</p>
+</li>
+<li>
+<p><strong>ლოკალიზებულია ქართულ რეალობაზე</strong> – RS.ge და ბანკების ინტეგრაციით, ლარში ოპერაციებით, ქართულ ენაზე.</p>
+</li>
+<li>
+<p><strong>Multi-tenant არქიტექტურით</strong> ერთ პლატფორმაზე მოემსახურება ათასობით კომპანიას, რაც მასშტაბურობასა და ხარჯების შემცირებას უზრუნველყოფს.</p>
+</li>
+<li>
+<p><strong>ღიაა მომავალი ინტეგრაციებისთვის</strong> – მესამე მხარის დეველოპერები შეძლებენ მოდულების დამატებას.</p>
+</li>
+</ul>
+<p><strong>პრაქტიკული სარგებელი ბიზნესისთვის:</strong></p>
+<ul>
+<li>
+<p>მონაცემები ერთიან სივრცეშია და არ არის საჭირო სხვადასხვა პროგრამებს შორის ქაოტური მუშაობა.</p>
+</li>
+<li>
+<p>შემცირდება ადამიანური შეცდომები და გაჩნდება სრული კონტროლი გაყიდვებზე, ფინანსებზე და მარაგებზე.</p>
+</li>
+<li>
+<p>კომპანიები დაზოგავენ დროსა და ხარჯს, რადგან მიიღებენ ქართულ რეალობაზე მორგებულ გადაწყვეტას, რომელიც მათ ზომასა და მოთხოვნებს შეესაბამება.</p>
+</li>
+</ul>
+<p><strong>გრძელვადიანი მიზანი:</strong><br />
+გახდეს <strong>კავკასიის SMB სეგმენტში ლიდერი ERP გადაწყვეტა</strong>, რომელიც არა მხოლოდ საქართველოს, არამედ მეზობელი ქვეყნების (სომხეთი, აზერბაიჯანი) ბიზნესებსაც მისცემს შესაძლებლობას მიიღონ მსოფლიო დონის ციფრული მართვის ინსტრუმენტი, ადგილობრივ პირობებზე მორგებულ ფასსა და ფორმატში.</p>
+<h2 id="key-success-metrics">Key Success Metrics<a class="headerlink" href="#key-success-metrics" title="Permanent link">&para;</a></h2>
+<p>პროექტის წარმატების გასაზომად განისაზღვრება შემდეგი ძირითადი მეტრიკები:</p>
+<ol>
+<li>
+<p><strong>მომხმარებელთა მასშტაბი</strong></p>
+<ul>
+<li>
+<p>პირველი 12 თვის განმავლობაში მინიმუმ <strong>300+ კომპანია</strong> პლატფორმაზე.</p>
+</li>
+<li>
+<p>მეორე წლის ბოლოს მინიმუმ <strong>1000+ აქტიური კომპანია</strong>, რომელთაგან 70% მცირე და 30% საშუალო ზომის ბიზნესი.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>მომხმარებლის დაკმაყოფილება</strong></p>
+<ul>
+<li>
+<p>მომხმარებელთა <strong>დაკმაყოფილების მაჩვენებელი ≥ 90%</strong> (კითხვარისა და მხარდაჭერის შეფასებების მიხედვით).</p>
+</li>
+<li>
+<p><strong>სისტემის ხელმისაწვდომობა ≥ 99.5% uptime</strong>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>ფუნქციური გაფართოება</strong></p>
+<ul>
+<li>
+<p>პირველ წელს: CRM, Accounting, Warehouse მოდულები + RS.ge ინტეგრაცია.</p>
+</li>
+<li>
+<p>მეორე წელს: ბანკების API ინტეგრაცია (მინ. <strong>5 წამყვანი ქართული ბანკი</strong>) + HR და Project Management მოდულები.</p>
+</li>
+<li>
+<p>მესამე წელს: Marketplace პლატფორმა მესამე მხარის მოდულებისთვის.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>ფინანსური ეფექტურობა</strong></p>
+<ul>
+<li>
+<p>სისტემის გამოყენებით კომპანიები საშუალოდ დაზოგავენ <strong>30% მეტ დროს</strong> ოპერაციულ პროცესებში.</p>
+</li>
+<li>
+<p>მინიმუმ <strong>20% შემცირება შეცდომების რაოდენობაში</strong>, რომლებიც გამოწვეულია დუბლირებულ მონაცემებთან მუშაობით.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>გეოგრაფიული გაფართოება</strong></p>
+<ul>
+<li>
+<p>2 წლის შემდეგ – პირველი კლიენტები სომხეთსა და აზერბაიჯანში.</p>
+</li>
+<li>
+<p>3 წლის შემდეგ – რეგიონალური პოზიციონირება როგორც <strong>კავკასიის SMB ERP ლიდერი</strong>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>ეკოსისტემა და პარტნიორობა</strong></p>
+<ul>
+<li>
+<p>მინიმუმ <strong>10+ პარტნიორი ინტეგრაცია</strong> (ბანკები, საგადასახადო სისტემები, e-commerce პლატფორმები).</p>
+</li>
+<li>
+<p><strong>მესამე მხარის დეველოპერების ჩართვა</strong> Marketplace მოდულების შექმნაში (სულ მცირე 20+ დამატებითი მოდული პირველ 3 წელიწადში).</p>
+</li>
+<li>
+<h2 id="_1">სამიზნე აუდიტორია<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+</li>
+</ul>
+</li>
+</ol>
+<p>პროექტის ძირითადი სამიზნე აუდიტორიაა <strong>მცირე და საშუალო ზომის კომპანიები (SMB) საქართველოში</strong>.</p>
+<h3 id="1">1. სექტორები<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>ვაჭრობა და დისტრიბუცია</strong> – მცირე მაღაზიები, ჰოლსეილერები, დისტრიბუტორები, რომლებსაც სჭირდებათ გაყიდვების, მარაგისა და ინვოისების კონტროლი.</p>
+</li>
+<li>
+<p><strong>სერვისის მიმწოდებლები</strong> – ტურიზმი, სამშენებლო კომპანიები, სარემონტო სერვისები, ლოჯისტიკა, საბუღალტრო ოფისები.</p>
+</li>
+<li>
+<p><strong>წარმოება</strong> – მცირე და საშუალო საწარმოები (საკვები, ავეჯი, ტანსაცმელი, კოსმეტიკა), სადაც მნიშვნელოვანია მარაგის, შეკვეთების და წარმოების პროცესის აღრიცხვა.</p>
+</li>
+<li>
+<p><strong>E-commerce / ონლაინ ბიზნესები</strong> – ონლაინ მაღაზიები, რომლებსაც სჭირდებათ პროდუქტის, შეკვეთების, გადახდებისა და მიტანის სისტემატიზაცია.</p>
+</li>
+</ul>
+<h3 id="2">2. კომპანიის ზომა<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>მცირე ბიზნესი:</strong> 5–30 თანამშრომელი. ხშირად აქვთ Excel-ზე ან ქაღალდზე დაფუძნებული პროცესები, საჭიროებენ მარტივ და იაფ გადაწყვეტას.</p>
+</li>
+<li>
+<p><strong>საშუალო ბიზნესი:</strong> 30–200 თანამშრომელი. იყენებენ რამდენიმე სხვადასხვა პროგრამას (ბუღალტერია, CRM, საწყობი), მაგრამ მონაცემები დაშლილია და არაერთიანდება. მათ სჭირდებათ ერთიანი პლატფორმა, რომელიც ამარტივებს მართვას.</p>
+</li>
+</ul>
+<h3 id="3">3. პრობლემები, რომელსაც სისტემა წყვეტს<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>დუბლირებული მონაცემები</strong> – ერთსა და იმავე ინფორმაციას სხვადასხვა პროგრამაში ხელით შეყვანა.</p>
+</li>
+<li>
+<p><strong>არასისტემური აღრიცხვა</strong> – ბევრი პროცესი ტარდება Excel-ში ან ქაღალდზე, რაც ზრდის შეცდომების რისკს.</p>
+</li>
+<li>
+<p><strong>ლოკალიზაციის ნაკლებობა</strong> – უცხოურ სისტემებში არ არის RS.ge ინტეგრაცია, ქართულ ბანკებთან კავშირი და ლარში ოპერაციები.</p>
+</li>
+<li>
+<p><strong>მაღალი ღირებულება</strong> – უცხოური გადაწყვეტილებები SMB-სთვის ზედმეტად ძვირია.</p>
+</li>
+<li>
+<p><strong>გართულებული ინტერფეისი</strong> – უცხოურ ERP-ს ხშირად სჭირდება სპეციალური ტრენინგი, რაც მცირე ბიზნესისთვის ხელმიუწვდომელია.</p>
+</li>
+</ul>
+<h3 id="4">4. ღირებულება სამიზნე აუდიტორიისთვის<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>ერთიანი პლატფორმა</strong> – გაყიდვები, ბუღალტერია, საწყობი და RS.ge ინტეგრაცია ერთ სისტემაში.</p>
+</li>
+<li>
+<p><strong>ადაპტირებული ქართულ რეალობაზე</strong> – ლარში ოპერაციები, ქართული ინტერფეისი, ადგილობრივი წესების გათვალისწინება.</p>
+</li>
+<li>
+<p><strong>ღირებულება-მომგებიანობა</strong> – SMB-ს შეუძლია მიიღოს საერთაშორისო კლასის გადაწყვეტა გაცილებით დაბალ ფასად.</p>
+</li>
+<li>
+<p><strong>მასშტაბურობა</strong> – კომპანია იწყებს მხოლოდ საჭირო მოდულებით და ზრდის სისტემას თავისი განვითარების პარალელურად.</p>
+</li>
+</ul>
+<h2 id="_2">ხედვა<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>ჩვენი ხედვაა შევქმნათ <strong>პირველი ქართული, სრულად მოდულარული ERP/CRM სისტემა</strong>, რომელიც იქცევა მცირე და საშუალო ბიზნესების ციფრული ტრანსფორმაციის ბირთვად საქართველოში და მოგვიანებით მთელ კავკასიაში.</p>
+<p><strong>რისგან შედგება ხედვა:</strong></p>
+<ol>
+<li>
+<p><strong>მოდულურობა როგორც ძალა</strong></p>
+<ul>
+<li>
+<p>სისტემა დაყოფილი იქნება ცალკეულ მოდულებად (CRM, ბუღალტერია, საწყობი, HR, პროექტების მართვა, ანალიტიკა და სხვ.), რაც კომპანიას საშუალებას მისცემს დაიწყოს მხოლოდ იმით, რაც სჭირდება და ეტაპობრივად გააფართოოს შესაძლებლობები.</p>
+</li>
+<li>
+<p>ეს მიდგომა SMB-ს იცავს ზედმეტი ხარჯებისგან და აძლევს მოქნილობას, როგორც მათი ბიზნესი იზრდება.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>ლოკალიზაცია ქართულ რეალობაზე</strong></p>
+<ul>
+<li>
+<p>RS.ge-სთან პირდაპირი ინტეგრაცია (საგადასახადო ვალდებულებები, ანგარიშგებები).</p>
+</li>
+<li>
+<p>ადგილობრივი ბანკების API ინტეგრაცია სწრაფი და ავტომატური ტრანზაქციებისთვის.</p>
+</li>
+<li>
+<p>სრული მხარდაჭერა ლარში და ქართულ ენაზე, რაც მნიშვნელოვნად ამარტივებს ყოველდღიურ საქმიანობას.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>მარტივი ინტერფეისი SMB-სთვის</strong></p>
+<ul>
+<li>
+<p>უცხოურ ERP სისტემებთან შედარებით ინტერფეისი იქნება <strong>ინტუიციური და გასაგები</strong>, მინიმალური სწავლის საჭიროებით.</p>
+</li>
+<li>
+<p>კომპანიის მფლობელს ან მენეჯერს ექნება სრული ხედვა გაყიდვებზე, ფინანსებზე და მარაგებზე ერთი Dashboard-იდან.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Multi-tenant არქიტექტურა</strong></p>
+<ul>
+<li>
+<p>ერთ პლატფორმაზე ერთდროულად ათასობით კომპანიის მომსახურება, იზოლირებული მონაცემებითა და უსაფრთხოებით.</p>
+</li>
+<li>
+<p>ეს მოდელი უზრუნველყოფს მასშტაბურობას, სერვისის სტაბილურობას და დაბალ საბაზისო ფასს SMB-სთვის.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>ღია ეკოსისტემა</strong></p>
+<ul>
+<li>
+<p>მომავალში სისტემაში შეიქმნება <strong>Marketplace</strong>, სადაც მესამე მხარის დეველოპერები შექმნიან დამატებით მოდულებსა და ინტეგრაციებს.</p>
+</li>
+<li>
+<p>ეს გახდის პლატფორმას არა მხოლოდ პროდუქტს, არამედ <strong>ეკოსისტემას</strong>, რომელიც მუდმივად ვითარდება.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>გრძელვადიანი ხედვა:</strong></p>
+<ul>
+<li>
+<p>3 წლის პერსპექტივაში: სისტემამ უნდა მოიცვას მინიმუმ <strong>1000+ SMB კომპანია საქართველოში</strong>.</p>
+</li>
+<li>
+<p>5 წლის პერსპექტივაში: გახდეს <strong>კავკასიის რეგიონში წამყვანი SMB ERP/CRM გადაწყვეტა</strong>, რომელიც ექსპორტირდება სომხეთსა და აზერბაიჯანში.</p>
+</li>
+<li>
+<p>საბოლოო მიზანია – <strong>საქართველოს ბიზნესების სრულფასოვანი ციფრული გარდაქმნის მხარდაჭერა</strong> და კონკურენტუნარიანობის გაზრდა საერთაშორისო დონეზე.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.tabs", "navigation.tabs.sticky", "header.autohide"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,37 @@
+/* გლობალური icon ზომა (ნავიგაცია, header, sidebar) */
+:root {
+  --md-icon-size: 18px; /* 16–20px კარგი sweet spot-ია */
+}
+
+.md-header__button,
+.md-nav__button,
+.md-nav__icon,
+.md-icon,
+.md-social__link svg {
+  width: var(--md-icon-size) !important;
+  height: var(--md-icon-size) !important;
+}
+
+.wy-nav-content {
+  max-width: 100%;   /* ნაგულისხმევი 800px-ია */
+}
+
+/* Admonition (!!! note, tip, warning) სათაურებზე არსებული აიკონი */
+.md-typeset .admonition-title::before,
+.md-typeset details > summary::before {
+  transform: scale(0.8); /* 0.7–0.9 შენი გემოვნებით */
+}
+
+/* Emoji/Twemoji ზომის კონტროლი ტექსტში */
+.md-typeset .twemoji,
+.md-typeset img.emoji {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+}
+
+/* სურვილისამებრ: ლოგოს სიმაღლე header-ში */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 24px; /* შეცვალე 20–28px დიაპაზონში */
+}
