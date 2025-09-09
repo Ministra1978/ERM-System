@@ -196,10 +196,13 @@
   },
   "active": "d567b2fc3f35a44b",
   "lastOpenFiles": [
-    "docs/architecture.md",
-    "docs/index.md",
-    "docs/roadmap.md",
     "docs/Untitled.md",
+    "docs/index.md",
+    "docs/assets/css/overrides.css",
+    "docs/assets/css",
+    "docs/assets",
+    "docs/architecture.md",
+    "docs/roadmap.md",
     "docs/Untitled.canvas",
     "site/architecture/index.html",
     "site/architecture",
@@ -208,9 +211,6 @@
     "site/assets/stylesheets/main.7e37652d.min.css.map",
     "site/assets/stylesheets/palette.06af60db.min.css",
     "site/assets/stylesheets/main.7e37652d.min.css",
-    "site/assets/stylesheets",
-    "site/assets/javascripts/workers/search.973d3a69.min.js.map",
-    "site/assets/javascripts/workers/search.973d3a69.min.js",
     "site/assets/images/favicon.png",
     "Untitled.md"
   ]
