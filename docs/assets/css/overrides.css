@@ -12,6 +12,10 @@
   height: var(--md-icon-size) !important;
 }
 
+.wy-nav-content {
+  max-width: 1200px;   /* ნაგულისხმევი 800px-ია */
+}
+
 /* Admonition (!!! note, tip, warning) სათაურებზე არსებული აიკონი */
 .md-typeset .admonition-title::before,
 .md-typeset details > summary::before {
