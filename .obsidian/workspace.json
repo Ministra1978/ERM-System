@@ -147,13 +147,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "1dca44a701af2e3d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,6 +177,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4dcdc93d98b39d01",
+  "active": "f8cb28445dbe77d3",
   "lastOpenFiles": []
 }
