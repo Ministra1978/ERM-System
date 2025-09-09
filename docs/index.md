@@ -4,4 +4,4 @@ Welcome to the documentation for ERM-System.
 
 - [Roadmap](roadmap.md)
 - [Architecture](architecture.md)
-- [dsdssd](architecture.md)
+- [მიზანი](მიზანი.md)
