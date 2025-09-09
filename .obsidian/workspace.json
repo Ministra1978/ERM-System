@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Untitled"
             }
           }
         ],
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -196,8 +196,21 @@
   },
   "active": "d567b2fc3f35a44b",
   "lastOpenFiles": [
-    "Untitled.md",
+    "docs/Untitled.canvas",
+    "docs/Untitled.md",
     "docs/index.md",
+    "site/architecture/index.html",
+    "site/architecture",
+    "site/404.html",
+    "site/assets/stylesheets/palette.06af60db.min.css.map",
+    "site/assets/stylesheets/main.7e37652d.min.css.map",
+    "site/assets/stylesheets/palette.06af60db.min.css",
+    "site/assets/stylesheets/main.7e37652d.min.css",
+    "site/assets/stylesheets",
+    "site/assets/javascripts/workers/search.973d3a69.min.js.map",
+    "site/assets/javascripts/workers/search.973d3a69.min.js",
+    "site/assets/images/favicon.png",
+    "Untitled.md",
     "docs/architecture.md",
     "docs/roadmap.md"
   ]
