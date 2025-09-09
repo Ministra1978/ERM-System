@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/user-guide/intro.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "intro"
+              "title": "index"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/user-guide/intro.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from intro"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/user-guide/intro.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of intro"
+              "title": "Outline of index"
             }
           },
           {
@@ -181,10 +181,10 @@
   },
   "active": "4e0fa50757793c2d",
   "lastOpenFiles": [
+    "docs/user-guide/intro.md",
     "docs/about/research.md",
     "docs/about/goals.md",
     "docs/index.md",
-    "docs/user-guide/intro.md",
     "site/search/search_index.json",
     "site/search",
     "site/user-guide/intro.md/index.html",
