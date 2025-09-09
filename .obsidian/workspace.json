@@ -222,16 +222,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1dca44a701af2e3d",
+  "active": "7f3033b0af74511b",
   "lastOpenFiles": [
+    "docs/roadmap.md",
+    "docs/index.md",
     "requirements.txt",
     "docs/მიზანი.md",
-    "docs/index.md",
     "docs/architecture.md",
     "docs/assets/css/overrides.css",
     "docs/assets/css",
     "docs/assets",
-    "docs/roadmap.md",
     "docs/Untitled.canvas",
     "site/architecture/index.html",
     "site/architecture",
@@ -239,7 +239,6 @@
     "site/assets/stylesheets/palette.06af60db.min.css.map",
     "site/assets/stylesheets/main.7e37652d.min.css.map",
     "site/assets/stylesheets/palette.06af60db.min.css",
-    "site/assets/stylesheets/main.7e37652d.min.css",
     "site/assets/images/favicon.png"
   ]
 }
