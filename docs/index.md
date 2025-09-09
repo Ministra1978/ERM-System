@@ -3,5 +3,5 @@
 Welcome to the documentation for ERM-System.
 
 - [Roadmap](roadmap.md)
-- [mizani](architecture.md)
+- [Architecture](architecture.md)
 - [მიზანი](მიზანი.md)
