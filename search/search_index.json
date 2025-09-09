@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"ERM Documentation","text":""},{"location":"architecture/","title":"Architecture","text":""},{"location":"roadmap/","title":"Roadmap","text":""}]}
